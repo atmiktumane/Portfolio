@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 const MainContent = () => {
   return (
-    <div className="w-3/4 h-[100%] bg-zinc-800 rounded-2xl relative">
+    <div className="w-full xl:w-3/4 h-[100%] bg-zinc-800 rounded-2xl relative">
       <Navbar />
 
       <Outlet />
