@@ -3,7 +3,7 @@ import Container from "./components/Container";
 
 const App = () => {
   return (
-    <div className="h-screen w-full bg-zinc-900 text-white p-14">
+    <div className="h-screen w-full bg-zinc-900 p-14">
       <Container />
     </div>
   );
