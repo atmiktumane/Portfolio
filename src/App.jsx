@@ -1,10 +1,21 @@
 import React from "react";
 import Container from "./components/Container";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
     <div className="h-screen w-full bg-zinc-900 px-2 md:px-14 py-5 md:py-14">
-      <Container />
+      <Routes>
+        {/* Nested Route -> Outlet from react-router-dom */}
+        <Route exact path="/" element={<Container />}>
+          <Route index element={<Home />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
+      </Routes>
     </div>
   );
 };
