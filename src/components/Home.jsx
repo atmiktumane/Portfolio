@@ -13,6 +13,7 @@ const Home = () => {
       {/* Border line */}
       <div className="mt-3 w-8 h-[3px] bg-purple-500 rounded-2xl"></div>
 
+      {/* Description */}
       <p className="mt-7 text-zinc-400">
         Hi, I am Atmik Tumane, Software Developer from India, working in Web
         Development and Software Architecture. I enjoy turning complex problems
