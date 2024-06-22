@@ -22,7 +22,7 @@ const Sidebar = () => {
       </div>
 
       {/* Row 2 : Email, Phone, Location */}
-      <div className="row-2 my-6 xl:my-0 space-y-9">
+      <div className="row-2 my-6 xl:my-12 space-y-9">
         {/* Email */}
         <div className="flex gap-2">
           <div className="bg-zinc-900 flex justify-center items-center px-3 py-2 rounded">
