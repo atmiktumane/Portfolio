@@ -3,6 +3,7 @@ import { CgWebsite } from "react-icons/cg";
 import { FaCodepen } from "react-icons/fa";
 import { PiFigmaLogoDuotone } from "react-icons/pi";
 import { FaConnectdevelop } from "react-icons/fa6";
+import { ProfileCard } from "../components";
 
 export const Home = () => {
   return (
@@ -36,74 +37,38 @@ export const Home = () => {
         {/* Cards */}
         <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Card 1 - Web Development */}
-          <div className="bg-zinc-900 px-4 py-6 flex rounded-lg gap-3 hover:shadow-lg hover:shadow-purple-500/20">
-            {/* Icon */}
-            <div>
-              <CgWebsite className="text-5xl text-purple-500" />
-            </div>
-
-            {/* Content */}
-            <div className="content">
-              <p className="text-lg">Web Development (Full Stack)</p>
-              <p className="mt-2 text-zinc-400">
-                Competent in both front-end and back-end development, capable of
-                managing the entire development process from database design to
-                user interface implementation.
-              </p>
-            </div>
-          </div>
+          <ProfileCard
+            Icon={CgWebsite}
+            title="Web Development (Full Stack)"
+            content="Competent in both front-end and back-end development, capable of
+                  managing the entire development process from database design to user
+                  interface implementation."
+          />
 
           {/* Card 2 - Problem Solving */}
-          <div className="bg-zinc-900 px-4 py-6 flex rounded-lg gap-3 hover:shadow-lg hover:shadow-purple-500/20">
-            {/* Icon */}
-            <div>
-              <FaCodepen className="text-5xl text-purple-500" />
-            </div>
-
-            {/* Content */}
-            <div className="content">
-              <p className="text-lg">Problem Solving</p>
-              <p className="mt-2 text-zinc-400">
-                Proficient in implementing efficient algorithms and data
-                structures to solve complex problems.
-              </p>
-            </div>
-          </div>
+          <ProfileCard
+            Icon={FaCodepen}
+            title="Problem Solving"
+            content="Proficient in implementing efficient algorithms and data
+                structures to solve complex problems."
+          />
 
           {/* Card 3 - Web Design */}
-          <div className="bg-zinc-900 px-4 py-6 flex rounded-lg gap-3 hover:shadow-lg hover:shadow-purple-500/20">
-            {/* Icon */}
-            <div>
-              <PiFigmaLogoDuotone className="text-5xl text-purple-500" />
-            </div>
-
-            {/* Content */}
-            <div className="content">
-              <p className="text-lg">Web Design</p>
-              <p className="mt-2 text-zinc-400">
-                Experienced in creating visually appealing, user-friendly, and
-                responsive web designs that enhance user experience.
-              </p>
-            </div>
-          </div>
+          <ProfileCard
+            Icon={PiFigmaLogoDuotone}
+            title="Web Design"
+            content="Experienced in creating visually appealing, user-friendly, and
+                responsive web designs that enhance user experience."
+          />
 
           {/* Card 4 - Backend Development */}
-          <div className="bg-zinc-900 px-4 py-6 flex rounded-lg gap-3 hover:shadow-lg hover:shadow-purple-500/20">
-            {/* Icon */}
-            <div>
-              <FaConnectdevelop className="text-5xl text-purple-500" />
-            </div>
-
-            {/* Content */}
-            <div className="content">
-              <p className="text-lg">APIs and Web Services</p>
-              <p className="mt-2 text-zinc-400">
-                Skilled in designing, developing, and consuming RESTful APIs and
+          <ProfileCard
+            Icon={FaConnectdevelop}
+            title="APIs and Web Services"
+            content="Skilled in designing, developing, and consuming RESTful APIs and
                 web services, enabling seamless integration and communication
-                between different systems.
-              </p>
-            </div>
-          </div>
+                between different systems."
+          />
         </div>
       </div>
     </div>
