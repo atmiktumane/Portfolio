@@ -4,7 +4,7 @@ import { FaCodepen } from "react-icons/fa";
 import { PiFigmaLogoDuotone } from "react-icons/pi";
 import { FaConnectdevelop } from "react-icons/fa6";
 
-const Home = () => {
+export const Home = () => {
   return (
     <div className="h-[100%] px-4 md:px-9 py-20">
       {/* Heading */}
@@ -109,5 +109,3 @@ const Home = () => {
     </div>
   );
 };
-
-export default Home;

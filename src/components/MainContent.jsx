@@ -1,15 +1,13 @@
 import React from "react";
-import Navbar from "./Navbar";
 import { Outlet } from "react-router-dom";
+import { Navbars } from "./Navbars";
 
-const MainContent = () => {
+export const MainContent = () => {
   return (
     <div className="w-full xl:w-3/4 h-[100%] bg-zinc-800 rounded-2xl relative">
-      <Navbar />
+      <Navbars />
 
       <Outlet />
     </div>
   );
 };
-
-export default MainContent;

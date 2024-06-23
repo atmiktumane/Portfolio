@@ -1,6 +1,6 @@
 import React from "react";
 
-const Skillbar = ({ skill, level }) => {
+export const Skillbar = ({ skill, level }) => {
   return (
     <div className="skillbar">
       {/* Skill Heading with Percentage */}
@@ -17,5 +17,3 @@ const Skillbar = ({ skill, level }) => {
     </div>
   );
 };
-
-export default Skillbar;

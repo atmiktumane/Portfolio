@@ -6,7 +6,7 @@ import { MdOutlineLocationOn } from "react-icons/md";
 import { SiGithub } from "react-icons/si";
 import { IoLogoLinkedin } from "react-icons/io5";
 
-const Sidebar = () => {
+export const Sidebar = () => {
   return (
     <div className="w-full xl:w-1/4 h-[100%] flex flex-col justify-between items-center px-4 py-8 bg-zinc-800 rounded-2xl">
       {/* Row 1 : Profile Image, Name, Designation */}
@@ -85,5 +85,3 @@ const Sidebar = () => {
     </div>
   );
 };
-
-export default Sidebar;

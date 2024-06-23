@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Contact = () => {
+export const Contact = () => {
   const [result, setResult] = useState("");
 
   const onSubmit = async (e) => {
@@ -99,5 +99,3 @@ const Contact = () => {
     </div>
   );
 };
-
-export default Contact;

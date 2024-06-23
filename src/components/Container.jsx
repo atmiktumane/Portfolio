@@ -1,8 +1,8 @@
 import React from "react";
-import Sidebar from "./Sidebar";
-import MainContent from "./MainContent";
+import { Sidebar } from "./Sidebar";
+import { MainContent } from "./MainContent";
 
-const Container = () => {
+export const Container = () => {
   return (
     <section className="w-full grid grid-cols-1 xl:flex gap-3 md:gap-6 text-zinc-200">
       <Sidebar />
@@ -11,5 +11,3 @@ const Container = () => {
     </section>
   );
 };
-
-export default Container;

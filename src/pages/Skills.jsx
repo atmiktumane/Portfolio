@@ -1,7 +1,7 @@
 import React from "react";
-import Skillbar from "./Skillbar";
+import { Skillbar } from "../components";
 
-const Skills = () => {
+export const Skills = () => {
   return (
     <div className="h-[100%] px-4 md:px-9 py-20">
       {/* Heading */}
@@ -90,5 +90,3 @@ const Skills = () => {
     </div>
   );
 };
-
-export default Skills;
