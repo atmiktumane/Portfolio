@@ -25,7 +25,7 @@ const Sidebar = () => {
       <div className="row-2 my-6 xl:my-12 space-y-9">
         {/* Email */}
         <div className="flex gap-2">
-          <div className="bg-zinc-900 flex justify-center items-center px-3 py-2 rounded">
+          <div className="bg-zinc-900 flex justify-center items-center px-3 py-2 rounded-lg">
             <MdMailOutline className="text-2xl text-purple-500" />
           </div>
 
@@ -37,7 +37,7 @@ const Sidebar = () => {
 
         {/* Phone */}
         <div className="flex gap-2">
-          <div className="bg-zinc-900 flex justify-center items-center px-3 py-2 rounded">
+          <div className="bg-zinc-900 flex justify-center items-center px-3 py-2 rounded-lg">
             <IoIosPhonePortrait className="text-2xl text-purple-500" />
           </div>
 
@@ -49,7 +49,7 @@ const Sidebar = () => {
 
         {/* Location */}
         <div className="flex gap-2">
-          <div className="bg-zinc-900 flex justify-center items-center px-3 py-2 rounded">
+          <div className="bg-zinc-900 flex justify-center items-center px-3 py-2 rounded-lg">
             <MdOutlineLocationOn className="text-2xl text-purple-500" />
           </div>
 

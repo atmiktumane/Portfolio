@@ -2,7 +2,7 @@ import React from "react";
 import Container from "./components/Container";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
-import Resume from "./components/Resume";
+import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
         {/* Nested Route -> Outlet from react-router-dom */}
         <Route exact path="/" element={<Container />}>
           <Route index element={<Home />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>

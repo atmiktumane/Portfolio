@@ -9,8 +9,8 @@ const Navbar = () => {
       link: "/",
     },
     {
-      title: "Resume",
-      link: "/resume",
+      title: "Skills",
+      link: "/skills",
     },
     {
       title: "Contact",

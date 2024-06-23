@@ -48,7 +48,7 @@ const Contact = () => {
             name="name"
             placeholder="Enter Your Name"
             required
-            className="bg-zinc-800 p-2 rounded"
+            className="bg-zinc-800 p-2 rounded-lg"
           />
 
           {/* Email */}
@@ -57,7 +57,7 @@ const Contact = () => {
             name="email"
             placeholder="Enter Your Email Address"
             required
-            className="bg-zinc-800 p-2 rounded"
+            className="bg-zinc-800 p-2 rounded-lg"
           />
         </div>
 
@@ -67,7 +67,7 @@ const Contact = () => {
           name="subject"
           placeholder="Enter the Email Subject"
           required
-          className="bg-zinc-800 p-2 rounded"
+          className="bg-zinc-800 p-2 rounded-lg"
         />
 
         {/* Message */}
@@ -76,14 +76,14 @@ const Contact = () => {
           placeholder="Enter Your Question or Message"
           rows="6"
           required
-          className="bg-zinc-800 p-2 rounded"
+          className="bg-zinc-800 p-2 rounded-lg"
         ></textarea>
 
         {/* Submit button */}
 
         <button
           type="submit"
-          className="w-1/2 md:w-1/3 place-self-center bg-purple-600 hover:bg-purple-800 py-1 rounded"
+          className="w-1/2 md:w-1/3 place-self-center bg-purple-600 hover:bg-purple-800 py-1 rounded-lg"
         >
           Submit Form
         </button>

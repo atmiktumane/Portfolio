@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="h-[100%] px-4 md:px-9 py-20">
       {/* Heading */}
-      <h2 className="text-2xl font-medium text-purple-300">Portfolio</h2>
+      <h2 className="text-2xl font-medium text-purple-300">Profile</h2>
 
       {/* Border line */}
       <div className="mt-3 w-8 h-[3px] bg-purple-500 rounded-2xl"></div>
