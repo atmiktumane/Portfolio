@@ -1,8 +1,33 @@
-# React + Vite
+## Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##### Portfolio Link : [https://portfolio-atmiktumane.netlify.app/]
 
-Currently, two official plugins are available:
+### Overview :
+<ul>
+The Portfolio Website is a personal portfolio site developed using React, React Router DOM, and Tailwind CSS. The site showcases projects, skills, and experiences, utilizing responsive design, reusable components, and nested routing for a seamless user experience.
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+#### Features
+
+* Responsive design ensuring optimal viewing on various devices
+* Reusable components and cards for consistent and maintainable code
+* Nested routing with React Router DOM Outlet for structured navigation
+* Easy navigation with React Router DOM
+* Tailwind CSS for rapid and flexible styling
+* Deployed on Netlify
+
+
+
+#### Technologies Used
+
+* Frontend: React, Tailwind CSS, React Router DOM
+* State Management: React Hooks
+* Routing: React Router DOM
+* Styling: Tailwind CSS
+
+
+
+
+
+
