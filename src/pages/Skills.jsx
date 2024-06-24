@@ -14,7 +14,7 @@ export const Skills = () => {
 
       {/* Button - Resume */}
       <button className="mt-9 bg-purple-700 hover:bg-purple-900 px-3 py-1 rounded-xl">
-        <a href="https://drive.google.com/file/d/1A-4H8Yx2Ot2Lb6lLL2Hh_pwkGSyr-Bn1/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1P9Rwr2i8gpY8KiOvPQzbW2OU-AduYuMi/view?usp=sharing">
           Resume Link
         </a>
       </button>
