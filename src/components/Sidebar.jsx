@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/profileImage.jpeg";
+import logo from "../assets/atmikPhoto.jpeg";
 import { MdMailOutline } from "react-icons/md";
 import { IoIosPhonePortrait } from "react-icons/io";
 import { MdOutlineLocationOn } from "react-icons/md";
@@ -11,7 +11,7 @@ export const Sidebar = () => {
     <div className="w-full xl:w-1/4 h-[100%] flex flex-col justify-between items-center px-4 py-8 bg-zinc-800 rounded-2xl">
       {/* Row 1 : Profile Image, Name, Designation */}
       <div className="row-1 flex flex-col items-center space-y-6">
-        <img src={logo} alt="/" className="h-32 w-32 rounded-2xl" />
+        <img src={logo} alt="/" className="h-32 w-32 rounded-full" />
 
         <p className="text-2xl font-semibold">Atmik Tumane</p>
         <p className="text-center text-zinc-400">
