@@ -1,3 +1,5 @@
+```Dependency Conflict solution : npm install --legacy-peer-deps```
+
 ## Portfolio Website
 
 ##### Portfolio Link : [https://portfolio-atmiktumane.netlify.app/]
