@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export const Navbars = () => {
   // Nav menus
@@ -9,8 +9,20 @@ export const Navbars = () => {
       link: "/",
     },
     {
+      title: "Experience",
+      link: "/experience",
+    },
+    {
+      title: "Education",
+      link: "/education",
+    },
+    {
       title: "Skills",
       link: "/skills",
+    },
+    {
+      title: "Projects",
+      link: "/projects",
     },
     {
       title: "Contact",
@@ -18,8 +30,10 @@ export const Navbars = () => {
     },
   ];
 
+  const location = useLocation();
+
   // to keep track of current active nav menu
-  const [activeLink, setActiveLink] = useState("Home");
+  const [activeLink, setActiveLink] = useState(location.pathname);
 
   // handle active nav menu
   const handleSetActiveLink = (link) => {
@@ -36,9 +50,9 @@ export const Navbars = () => {
         <Link
           to={item.link}
           className={`hover:text-purple-500 ${
-            activeLink === item.title ? "text-purple-500" : "text-zinc-200"
+            activeLink === item.link ? "text-purple-500" : "text-zinc-200"
           }`}
-          onClick={() => handleSetActiveLink(item.title)}
+          onClick={() => handleSetActiveLink(item.link)}
         >
           {item.title}
         </Link>
@@ -46,7 +60,7 @@ export const Navbars = () => {
     );
   });
   return (
-    <div className="w-full xl:w-1/2 bg-zinc-700 px-10 xl:px-5 py-3 absolute top-0 right-0 rounded-tr-2xl rounded-bl-xl">
+    <div className="w-full xl:w-3/4 bg-zinc-700 px-10 xl:px-5 py-3 absolute top-0 right-0 rounded-tr-2xl rounded-bl-xl">
       <ul className="text-white flex justify-between">{renderNavLink}</ul>
     </div>
   );

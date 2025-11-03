@@ -3,7 +3,7 @@ import { Skillbar } from "../components";
 
 export const Skills = () => {
   return (
-    <div className="h-[100%] px-4 md:px-9 py-20">
+    <div className="h-[100%] px-4 md:px-9 py-20 overflow-auto">
       {/* Heading */}
       <h2 className="text-2xl font-medium text-purple-300 tracking-[1px]">
         Skills
@@ -51,15 +51,6 @@ export const Skills = () => {
         <div className="bg-zinc-800 rounded-3xl flex items-center justify-center p-1">
           <img src="/github.png" alt="/" className="h-20" />
         </div>
-        {/* <img src="/css.png" alt="/" className="h-20 m-1" />
-        <img src="/javascript.png" alt="/" className="h-20 m-1" />
-        <img src="/react.png" alt="/" className="h-20 m-1" />
-        <img src="/tailwindcss.png" alt="/" className="h-20 m-1" />
-        <img src="/bootstrap.png" alt="/" className="h-20 m-1" />
-        <img src="/nodejs.png" alt="/" className="h-20 m-1" />
-        <img src="/mysql.png" alt="/" className="h-20 m-1" />
-        <img src="/mongodb.png" alt="/" className="h-20 m-1" />
-        <img src="/github.png" alt="/" className="h-20 m-1" /> */}
       </div>
 
       {/* My Skills */}
@@ -74,12 +65,12 @@ export const Skills = () => {
 
         {/* Skill 2 */}
         <div className="skill-2 mt-8">
-          <Skillbar skill="Backend Development" level={65} />
+          <Skillbar skill="Backend Development" level={80} />
         </div>
 
         {/* Skill 3 */}
         <div className="skill-3 mt-8">
-          <Skillbar skill="Web Design" level={80} />
+          <Skillbar skill="System Design" level={70} />
         </div>
 
         {/* Skill 4 */}

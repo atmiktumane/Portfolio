@@ -7,7 +7,7 @@ import { ProfileCard } from "../components";
 
 export const Home = () => {
   return (
-    <div className="h-[100%] px-4 md:px-9 py-20">
+    <div className="h-[100%] flex flex-col px-4 md:px-9 py-20">
       {/* Heading */}
       <h2 className="text-2xl font-medium text-purple-300">Profile</h2>
 
@@ -31,7 +31,7 @@ export const Home = () => {
       </p>
 
       {/* What I'm Doing */}
-      <div className="mt-11">
+      <div className="mt-11 overflow-auto">
         <h6 className="text-xl text-purple-100 font-medium">What I'm Doing</h6>
 
         {/* Cards */}
@@ -67,7 +67,7 @@ export const Home = () => {
             title="APIs and Web Services"
             content="Skilled in designing, developing, and consuming RESTful APIs and
                 web services, enabling seamless integration and communication
-                between different systems."
+                between distributed systems."
           />
         </div>
       </div>

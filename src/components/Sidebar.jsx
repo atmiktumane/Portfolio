@@ -15,7 +15,7 @@ export const Sidebar = () => {
 
         <p className="text-2xl font-semibold">Atmik Tumane</p>
         <p className="text-center text-zinc-400">
-          Software Developer | MERN | Full Stack Developer
+          Software Developer | Full Stack Developer
         </p>
 
         <div className="w-[100%] h-[1px] bg-purple-500 block"></div>
@@ -55,7 +55,7 @@ export const Sidebar = () => {
 
           <div className="block">
             <p className="text-zinc-400 text-sm font-semibold">LOCATION</p>
-            <p>Maharashtra, India</p>
+            <p>India</p>
           </div>
         </div>
       </div>

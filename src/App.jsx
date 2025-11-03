@@ -1,20 +1,28 @@
-import React from "react";
+import '@mantine/core/styles.css';
+
+import { MantineProvider } from '@mantine/core';
+
 import { Route, Routes } from "react-router-dom";
-import { Contact, Home, Skills } from "./pages";
+import { Contact, Education, Experience, Home, Projects, Skills } from "./pages";
 import { Container } from "./components";
 
 const App = () => {
   return (
-    <div className="min-h-screen w-full bg-zinc-900 px-2 md:px-14 py-5 md:py-14">
-      <Routes>
-        {/* Nested Route -> Outlet from react-router-dom */}
-        <Route exact path="/" element={<Container />}>
-          <Route index element={<Home />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/contact" element={<Contact />} />
-        </Route>
-      </Routes>
-    </div>
+    <MantineProvider >
+      <div className="min-h-screen w-full bg-zinc-900 px-2 md:px-14 py-5 md:py-14">
+        <Routes>
+          {/* Nested Route -> Outlet from react-router-dom */}
+          <Route exact path="/" element={<Container />}>
+            <Route index element={<Home />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Route>
+        </Routes>
+      </div>
+    </MantineProvider>
   );
 };
 
