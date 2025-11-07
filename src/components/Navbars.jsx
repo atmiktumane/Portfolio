@@ -61,8 +61,8 @@ export const Navbars = () => {
     );
   });
   return (
-    <div className="w-full xl:w-3/4 bg-zinc-700 px-10 xl:px-5 py-3 absolute top-0 right-0 rounded-tr-2xl rounded-bl-xl">
-      <ul className="grid grid-cols-3 md:grid-cols-6 gap-2 text-white">
+    <div className="w-full xl:w-3/4 bg-zinc-700 px-3 xl:px-5 py-3 absolute top-0 right-0 rounded-tr-2xl rounded-bl-xl">
+      <ul className="grid grid-cols-3 md:grid-cols-6 text-sm md:text-md gap-2 text-white">
         {renderNavLink}
       </ul>
     </div>

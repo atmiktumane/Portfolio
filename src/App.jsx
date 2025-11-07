@@ -1,15 +1,22 @@
-import '@mantine/core/styles.css';
+import "@mantine/core/styles.css";
 
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from "@mantine/core";
 
 import { Route, Routes } from "react-router-dom";
-import { Contact, Education, Experience, Home, Projects, Skills } from "./pages";
+import {
+  Contact,
+  Education,
+  Experience,
+  Home,
+  Projects,
+  Skills,
+} from "./pages";
 import { Container } from "./components";
 
 const App = () => {
   return (
-    <MantineProvider >
-      <div className="min-h-screen w-full bg-zinc-900 px-2 md:px-14 py-5 md:py-14">
+    <MantineProvider>
+      <div className="min-h-svh w-full px-2 md:px-14 py-5 md:py-14">
         <Routes>
           {/* Nested Route -> Outlet from react-router-dom */}
           <Route exact path="/" element={<Container />}>
