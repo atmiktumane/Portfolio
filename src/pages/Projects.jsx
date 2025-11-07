@@ -8,8 +8,23 @@ import CarMarketApp from "../assets/CarMarketApp.png";
 import JobKonnect from "../assets/JobKonnect.png";
 import Portfolio from "../assets/Portfolio.png";
 import projectImg from "../assets/projectImg.jpg";
+import DroidChat from "../assets/DroidChat.png";
 
 const projectsData = [
+  {
+    name: "Droid Chat.AI",
+    image: DroidChat,
+    description:
+      "AI-powered conversational platform designed to provide fast, accurate, and human-like responses for real-time interactions.",
+    detailPoints: [
+      "Built an Intelligent AI Assistant integrating OpenAI & Google Gemini APIs for real-time conversations, with a React UI supporting dynamic chat, typing indicators, and seamless interactions.",
+      "Developed a scalable backend for chat storage, API orchestration, and optimized request processing, ensuring low latency and efficient session management.",
+    ],
+    techStack:
+      "Java Spring Boot | Open AI | Google Gemini API | React | Redux | TailwindCSS | Mantine UI ",
+    githubLink: "https://github.com/atmiktumane/DroidChat-Frontend",
+    liveLink: "https://droid-chat.netlify.app/",
+  },
   {
     name: "Car Selling Platform",
     image: CarMarketApp,
@@ -90,7 +105,7 @@ export const Projects = () => {
 
   return (
     <>
-      <div className="h-[100%] px-4 md:px-9 py-20 overflow-auto">
+      <div className="h-[100%] px-4 md:px-9 pt-32 md:pt-20 pb-20 overflow-auto">
         {/* Heading */}
         <h2 className="text-2xl font-medium text-purple-300">
           Featured Projects
@@ -105,7 +120,7 @@ export const Projects = () => {
         </p>
 
         {/* Cards - Projects */}
-        <div className="mt-8 grid grid-cols-3 gap-3">
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-5">
           {projectsData.map((project, index) => {
             return (
               // Project 1

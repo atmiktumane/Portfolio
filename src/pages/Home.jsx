@@ -7,7 +7,7 @@ import { ProfileCard } from "../components";
 
 export const Home = () => {
   return (
-    <div className="h-[100%] flex flex-col px-4 md:px-9 py-20">
+    <div className="h-[100%] flex flex-col px-4 md:px-9 pt-32 md:pt-20 pb-20">
       {/* Heading */}
       <h2 className="text-2xl font-medium text-purple-300">Profile</h2>
 

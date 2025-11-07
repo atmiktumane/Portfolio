@@ -3,7 +3,7 @@ import { Skillbar } from "../components";
 
 export const Skills = () => {
   return (
-    <div className="h-[100%] px-4 md:px-9 py-20 overflow-auto">
+    <div className="h-[100%] px-4 md:px-9 pt-32 md:pt-20 pb-20 overflow-auto">
       {/* Heading */}
       <h2 className="text-2xl font-medium text-purple-300 tracking-[1px]">
         Skills

@@ -28,7 +28,7 @@ export const Contact = () => {
     }
   };
   return (
-    <div className="h-[100%] px-4 md:px-9 pt-20 pb-[25px]">
+    <div className="h-[100%] px-4 md:px-9 pt-32 md:pt-20 pb-[25px]">
       {/* Heading */}
       <h2 className="text-2xl font-medium text-purple-300">Contact Us</h2>
 

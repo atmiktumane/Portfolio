@@ -45,7 +45,8 @@ export const Navbars = () => {
     return (
       <li
         key={index}
-        className="bg-zinc-900 rounded-xl px-3 py-1 transition-all duration-500"
+        // className="bg-zinc-900 rounded-xl px-3 py-1 transition-all duration-500"
+        className="bg-zinc-900 rounded-xl px-4 py-1 transition-all duration-500 text-center min-w-[90px]"
       >
         <Link
           to={item.link}
@@ -61,7 +62,9 @@ export const Navbars = () => {
   });
   return (
     <div className="w-full xl:w-3/4 bg-zinc-700 px-10 xl:px-5 py-3 absolute top-0 right-0 rounded-tr-2xl rounded-bl-xl">
-      <ul className="text-white flex justify-between">{renderNavLink}</ul>
+      <ul className="grid grid-cols-3 md:grid-cols-6 gap-2 text-white">
+        {renderNavLink}
+      </ul>
     </div>
   );
 };

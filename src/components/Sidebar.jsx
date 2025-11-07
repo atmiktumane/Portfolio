@@ -15,7 +15,8 @@ export const Sidebar = () => {
 
         <p className="text-2xl font-semibold">Atmik Tumane</p>
         <p className="text-center text-zinc-400">
-          Software Developer | Full Stack Developer
+          Software Developer | Java | Spring Boot | AI LLM | ReactJS | MERN |
+          AWS
         </p>
 
         <div className="w-[100%] h-[1px] bg-purple-500 block"></div>
